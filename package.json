@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -27,6 +29,7 @@
     "globals": "^16.0.0",
     "husky": "^9.1.7",
     "prettier": "3.5.3",
+    "sass": "^1.87.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.31.1",
     "vite": "^6.3.1"

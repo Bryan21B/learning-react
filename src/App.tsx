@@ -2,15 +2,8 @@ import Alert from "./components/Alert";
 import Button from "./components/Button";
 import ListGroup from "./components/ListGroup";
 import { useState } from "react";
-import Alert from "./components/Alert";
-import Button from "./components/Button";
-import ListGroup from "./components/ListGroup";
-import { useState } from "react";
 
 function App() {
-  const [alertVisible, setAlertVisibility] = useState(false);
-  const items = ["Melon", "Apples", "Bananas"];
-  const handleSelectItem = (item: string) => console.log(item);
   const [alertVisible, setAlertVisibility] = useState(false);
   const items = ["Melon", "Apples", "Bananas"];
   const handleSelectItem = (item: string) => console.log(item);
@@ -30,5 +23,4 @@ function App() {
   );
 }
 
-export default App;
 export default App;
